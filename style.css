@@ -14,6 +14,10 @@ h3 {
   color: #ddbea9;
 }
 
+.container {
+  display: flex;
+}
+
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
