@@ -1,7 +1,10 @@
 body {
   background-color: #ffe8d6;
 }
-
+.about-me img {
+  height: 40vh;
+  width: 30vw;
+}
 h1 {
   color: #76513e;
   display: flex;
