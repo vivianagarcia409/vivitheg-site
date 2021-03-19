@@ -16,20 +16,138 @@
 
 
 <body>
+  <div class="container">
+      <nav class="nav-bar" id="navTop">
+          <ul class="nav-bar-left">
+              <li> <a class="nav-bar-item test" href="#aboutMe">About</a></li>
+              <li> <a class="nav-bar-item test" href="#projects">Projects</a></li>
+              <li> <a class="nav-bar-item test" href="#contactMe">Contact</a></li>
 
-        <h1>Vivi The G</h1>
+              <div class="hamburger">
+                  <img onclick="topFunction()" class="logo" src="./images/imageedit_2_7602255574.png" alt="logo">
 
-        <h2>this color will be the subtle accents</h2>
-    
-        <h3>maybe nav bar</h3>
-    
-        <h4>black lettering looks good with a different font</h4>
+              </div>
+          </ul>
 
-        <h5>adding random something?</h5>
-        <div class="about-me">
-        <img src="images/IMG_6415.jpeg" alt="photo of me">
+      </nav>
+      <ul class="navBarMobile">
+          <li> <a class="nav-bar-item test" href="#aboutMe">About</a></li>
+          <li> <a class="nav-bar-item test" href="#projects">Projects</a></li>
+          <li> <a class="nav-bar-item test" href="#contactMe">Contact</a></li>
+      </ul>
+
+      <!-- section 1 Front Page -->
+      <header class="orchid-background" id="front-page">
+          <section>
+              <h1 id="name">Viviana Andrea Garcia</h1>
+              <h2 id="job-title">Web Developer</h2>
+              <div class="photo-lineup">
+                  <img src="./images/cell-phone.png" alt="cell-phone">
+                  <img src="./images/laptop.png" alt="laptop">
+                  <img src="./images/desktop-logo.png" alt="desktop">
+              </div>
+          </section>
+      </header>
+      <!-- section 2 About Me-->
+      <div class="darker-background" id="aboutMe">
+
+          <div class="about-me">
+              <img src="./images/headshot1.jpeg" alt="headshot">
+
+          </div>
+
+          <div class="about-me-info">
+              <h3>about me</h3>
+              Having graduated from Florida International University at 23 with a degree in Psychology, I had a world
+              of options at my feet. I began working as a front office/student affairs coordinator for a non-profit
+              private organization for children with autism and related
+              disabilities and found my love in the creative realm. With working in administration, I found myself
+              designing flyers and invitations with everyday applications and wanted to expand my knowledge in the
+              subject.
+              <br>
+              With that being said, my full stack developing skills began at Ironhack. I advanced a hobby into a
+              career by
+              helping clients bring their vision to life with websites and/or applications specially curated
+              for their intended viewers. Allow me do the same for you!
+
+          </div>
+
       </div>
 
+
+      <!-- section 3 Projects-->
+
+      <div class="projects-background" id="projects">
+
+          <h1>Projects</h1>
+          <div class="projects-list">
+              <div>
+                  <a href="https://the-ironhack-breakfast-club.github.io/dino-game/">Dino Game</a>
+                  <h6>A basic Mario-style game with Canvas to run through platforms without having to start
+                      over if attacked by a meteor-monster.</h6>
+              </div>
+              <div>
+                  <a href="https://voodoochildren.netlify.app/">Voodoo Children</a>
+                  <h6>A site developed to sell Jimi Hendrix merchandise while using an API to allow the merchandise to
+                      be added to a cart and not get deleted once refreshed.</h6>
+              </div>
+              <div>
+                  <a href="https://wishlistgift.netlify.app">Wish List Gift</a>
+                  <h6>A full stack site to create a digital wish list using MongoDB Atlas to store information
+                      retrieved from the site to create a database of products and users in order for users to be able
+                      to sign in and view their profile and the products they added to their wish list.</h6>
+              </div>
+
+          </div>
+
+
+      </div>
+
+      <!-- section 4 Contact Me-->
+      <div class=" contact-background" id="contactMe">
+
+          <div>
+              <h1>Connect With Me</h1>
+          </div>
+          <br>
+          <div>
+              <form>
+                  <label for="firstName"></label>
+                  <input type="text" name="firstName" placeholder="First Name" />
+                  <br>
+                  <label for="lastName"></label>
+                  <input type="text" name="lastName" placeholder="Last Name" />
+                  <br>
+                  <label for="email"></label>
+                  <input type="email" name="email" placeholder="Email" />
+                  <br>
+                  <textarea placeholder="Let's Connect"></textarea>
+                  <br>
+                  <button type="submit">submit</button>
+                  <br>
+              </form>
+          </div>
+
+
+
+
+      </div>
+      <footer>
+          <ul class="nav-bar-socials">
+              <li> <a href="https://www.linkedin.com/in/viviana-garcia-04/">
+                      <img src="./images/linkedin-logo-png-black-9.png" alt="linked in">
+                  </a>
+              </li>
+              <li> <a class="resume" href="./resume/Viviana A Garcia Resume.pdf" download="resume">Resume</a>
+              </li>
+              <li> <a href="https://github.com/vivianagarcia409">
+                      <img src="./images/github-logo.png" alt="github">
+                  </a>
+              </li>
+          </ul>
+      </footer>
+
+  </div>
 </body>
 
 <script src="./index.js">
